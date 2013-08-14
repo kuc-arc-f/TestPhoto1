@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<TextView
+   xmlns:android="http://schemas.android.com/apk/res/android"
+   android:id="@+id/lbl_fm002_nxt"
+   android:layout_height="fill_parent"
+   android:layout_width="fill_parent"
+   android:textSize="24sp"
+   android:padding="15sp"
+   android:background="#C1C1C1"
+   android:textColor="#FFF"
+   android:gravity="center_horizontal"
+   android:text="more..."/>

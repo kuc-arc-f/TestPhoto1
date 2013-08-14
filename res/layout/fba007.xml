@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- mainアクティビティ用 -->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FFF">
+    <!-- 
+	<LinearLayout android:id="@+id/Lay_btn"
+	 android:layout_width="fill_parent"
+	 android:background="#000"
+	 android:layout_height="wrap_content" android:orientation="horizontal">
+	 <Button
+	     android:id="@+id/btn_typ_sc"
+	     android:layout_width="fill_parent"
+	     android:layout_height="wrap_content"
+	     android:text="Serach-Key"
+	     android:layout_weight="1"
+	     android:layout_margin="5dp"
+	     android:onClick="onClick_typ_sc"
+	      android:enabled="false"
+	      />
+	 <Button
+	     android:id="@+id/btn_typ_ps"
+	     android:layout_width="fill_parent"
+	     android:layout_height="wrap_content"
+	     android:text="Person"
+	     android:onClick="onClick_typ_ps"
+	     android:layout_weight="1"
+	     android:layout_margin="5dp"/>
+	</LinearLayout>
+     -->
+	<!-- -->
+<LinearLayout android:id="@+id/LinearLayout01"
+ android:layout_width="fill_parent"
+ android:layout_height="wrap_content" android:orientation="horizontal" android:padding="5px">
+<ImageButton android:id="@+id/btn_sc" android:src="@drawable/ic_menu_search"
+     android:layout_width="wrap_content" android:layout_height="wrap_content">
+</ImageButton>
+<EditText android:text="" android:id="@+id/txt_sc"
+     android:layout_width="fill_parent" android:layout_height="fill_parent" android:hint="Search Keyword">
+</EditText>
+</LinearLayout>
+    <!-- リストビュー -->
+    <ListView
+        android:id="@android:id/list"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:fastScrollEnabled="true" />
+    <!-- リストが空のときに表示 -->
+    <TextView
+        android:id="@android:id/empty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</LinearLayout>

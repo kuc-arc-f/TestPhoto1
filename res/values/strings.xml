@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, KucPicasaActivity!</string>
+    <string name="app_name">Kuc.Picasa</string>
+
+   	<string name="about">About</string>
+	<string name="about_text">http://kuc-arc-f.com</string>
+	<string name="timer_tit">Timer setting</string>
+	<string name="timer_30">30 Sec</string>
+	<string name="timer_60">1 min(60sec)</string>
+	<string name="timer_120">2 min(120sec)</string>
+	<string name="timer_300">5 min(300sec)</string>
+	<string name="fm003_timerEnd">Screen-mode, completed..</string>   
+  	<string name="fm003_nxt_tit">Next-image setting</string>
+  	<string name="fm003_nxt_01">Normal</string>
+  	<string name="fm003_nxt_02">Random</string>     
+  	<string name="fm006_tit_01">Slide-show</string>     
+  	<string name="fm006_tit_02">General</string> 
+  	<string name="fm006_ac">Account setting</string>
+  	<string name="fm006_del">Image-delete setting</string>
+  	<string name="fm006_del_00">Not-delete</string>
+  	<string name="fm006_del_03">3 Days before.</string>
+  	<string name="fm006_del_07">7 Days before.</string>
+  	<string name="str_search_key01">summer</string> 	    
+  	<string name="str_search_key02">winter</string>
+  	<string name="fm001_MyPT">My-Photo</string>
+  	<string name="now_loading">Loading...</string>
+  	<string name="fm101_feat">featured</string>
+  	<string name="fm101_sc"  >Search</string>
+  	<string name="err_msg_01">technical problem, sorry please wait connect.</string>
+</resources>

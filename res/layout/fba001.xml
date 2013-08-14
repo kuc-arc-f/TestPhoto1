@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="#FFFFFF" >
+    <LinearLayout android:layout_width="fill_parent" 
+                  android:id="@+id/linearLayout1"  
+                  android:gravity="center"
+                  android:layout_height="50dp"
+                  android:background="#FFF" >
+        <ImageView android:id="@+id/imageView1" 
+                   android:layout_height="wrap_content"
+                   android:layout_width="wrap_content"
+                   android:src="@drawable/logo"
+                   android:paddingRight="30dp"
+                   android:layout_gravity="left"
+                   android:layout_weight="0" />
+        <View android:layout_height="wrap_content" 
+              android:id="@+id/view1"
+              android:layout_width="wrap_content"
+              android:layout_weight="1" />
+        <Button android:id="@+id/categorybutton"
+                android:background="@drawable/button_normal"
+                android:layout_height="fill_parent"
+                android:layout_weight="0"
+                android:layout_width="120dp"
+                android:onClick="onClick_menu"
+                style="@style/CategoryButtonStyle" android:text="Menu"/>
+    </LinearLayout>    
+    <!-- 
+  <LinearLayout
+      android:id="@+id/linearLayout1"
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:gravity="center_vertical">
+	  <Button android:layout_alignParentLeft="true" 
+	  android:id="@+id/btn_slide"
+	  android:onClick="onClick_slide"
+	  android:layout_height="fill_parent" android:text="Slide show"
+	  android:layout_width="wrap_content" android:layout_margin="5px"
+	  android:layout_weight="1"
+	  android:textColor="#008000">
+	  </Button>
+	  <ImageButton
+	       android:id="@+id/btn_sc"
+	       android:src="@drawable/ic_menu_search"
+	       android:onClick="onClick_sc"
+	       android:layout_width="wrap_content" android:layout_height="wrap_content"
+	       android:layout_margin="5px">
+	  </ImageButton>      
+  </LinearLayout>
+     -->
+      <!-- リストビュー -->
+    <ListView
+        android:id="@android:id/list"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+    	android:layout_above="@+id/footer"
+		android:layout_weight="1"
+		android:fastScrollEnabled="true" />
+  <!-- 
+  <LinearLayout android:id="@+id/footer"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:layout_alignParentBottom="true"
+    >
+  <TextView
+     android:id="@android:id/empty"
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content"
+     android:text="hoge"
+     android:textColor="#000"
+     android:padding="10px" android:textSize="18sp"
+     android:layout_margin="5sp"/>
+ </LinearLayout>        
+   -->
+</LinearLayout>

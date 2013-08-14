@@ -1,0 +1,37 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.kuc_arc_f.app.picasa"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="10"
+        android:targetSdkVersion="17" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:label="@string/app_name"
+            android:name=".FBA011Act" >
+            <intent-filter >
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".SplashAct"/>
+
+        <activity android:name=".FBA002Activity"/>
+        <activity android:name=".FBA003Activity"/>        
+        <activity android:name=".FBA005Activity"/>        
+        <activity android:name=".FBA006Activity"/>        
+        <activity android:name=".FBA007Activity"/>
+        <activity android:name=".FBA008Activity"/>
+        <activity android:name=".FBA009Act"/>
+        <activity android:name=".FBA010Act"/>   
+        
+        <activity android:name=".FBA012Act"/>   
+       </application>
+ <uses-permission android:name="android.permission.INTERNET" />
+</manifest>

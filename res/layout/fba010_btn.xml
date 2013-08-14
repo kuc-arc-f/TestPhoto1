@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     android:orientation="vertical"
+     android:layout_width="fill_parent"
+      android:layout_height="fill_parent"
+      android:gravity="right" android:id="@+id/Lay_theme"
+      style="@style/Theme.Translucent2">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+    </LinearLayout>      
+    <LinearLayout android:id="@+id/body"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="center_horizontal"
+    >
+
+        <!-- 
+        <Button
+            android:id="@+id/btn_fb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Share" android:layout_margin="10dp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:background="#6D84B4"
+            android:paddingBottom="8dp" 
+            android:paddingTop="8dp" android:paddingLeft="20dp" android:paddingRight="20dp" android:onClick="onClick_fb"/>
+         -->
+          <Button android:text="More..." android:id="@+id/btn_next"
+           android:layout_height="wrap_content"
+           android:layout_width="fill_parent"
+            android:onClick="onClick_next"
+            android:textSize="24sp"
+            android:gravity="center_vertical|center_horizontal"
+            android:background="#C1C1C1" android:padding="10dp" android:textColor="#FFFFFF">
+           </Button>
+    </LinearLayout>
+</LinearLayout>
